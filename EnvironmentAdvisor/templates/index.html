@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>EcoSmart Waste Advisor</title>
+</head>
+<body>
+
+    <h1>EcoSmart Waste Advisor</h1>
+
+    <form action="/search" method="POST">
+
+        <input
+            type="text"
+            name="item"
+            placeholder="Enter waste item"
+            required>
+
+        <button type="submit">Search</button>
+
+    </form>
+
+</body>
+</html>

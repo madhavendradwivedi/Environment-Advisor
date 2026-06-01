@@ -1,0 +1,22 @@
+{
+  "plastic bottle": {
+    "category": "Recyclable",
+    "disposal": "Recycle Bin",
+    "impact": "Plastic pollution harms the environment.",
+    "alternative": "Use a reusable steel bottle."
+  },
+
+  "banana peel": {
+    "category": "Compostable",
+    "disposal": "Compost Bin",
+    "impact": "Organic waste produces methane in landfill.",
+    "alternative": "Convert it into compost."
+  },
+
+  "mobile phone": {
+    "category": "E-Waste",
+    "disposal": "E-Waste Collection Center",
+    "impact": "Contains hazardous metals and chemicals.",
+    "alternative": "Repair, donate or recycle."
+  }
+}
